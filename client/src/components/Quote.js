@@ -5,7 +5,7 @@ const Quote = () => {
   const [quote, setQuote] = useState({});
   const [search, setSearch] = useState('');
   const [quotes, setQuotes] = useState([]);
-  const [backendUrl, setBackendUrl] = useState('http://localhost:5001/api');
+  const [backendUrl, setBackendUrl] = useState('https://techplement-1-m0ng.onrender.com/api');
   const [error, setError] = useState(null);
 
   useEffect(() => {
